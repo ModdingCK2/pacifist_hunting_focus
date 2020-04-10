@@ -432,7 +432,6 @@ focus_hunting = {
 	allow = {
 		is_adult = yes
 		NOT = { trait = incapable }
-		NOT = { pacifist = yes }
 		prisoner = no
 	}
 	
@@ -443,6 +442,10 @@ focus_hunting = {
 		modifier = {
 			factor = 0
 			trait = infirm
+		}
+		modifier = {
+			factor = 0.2
+			pacifist = yes
 		}
 		modifier = {
 			factor = 0.2
